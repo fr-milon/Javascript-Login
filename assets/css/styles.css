@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(18, 141, 18, 0.925);
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login_form_control {
+    height: 400px;
+    width: 500px;
+    margin: 5% auto 0;
+    background-color: rgba(0, 0, 0, 0.274);
+    box-shadow: inset 1px 1px 3px 20px rgba(255, 255, 255, 0.096);
+    border: 1px solid silver;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.login_form_header {
+    height: 25%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    text-align: center;
+
+}
+.login_form_header h1 {
+    font-family: impact;
+    font-weight: normal;
+    color: #ffff;
+    padding: 5px;
+    font-size: 40px;
+    margin: 8px auto 0;
+    text-shadow: 2px 2px 5px 5px #ffffff;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.form {
+    height: 72%;
+}
+label {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+input {
+    margin: 20px 30px 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.inp {
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 80%;
+    border-radius: 0px 8px 8px 0px;
+    outline: none;
+    color: white;
+}
+
+.login-btn {
+    width: 50%;
+    position: absolute;
+    bottom: 40px;
+    left: 20%;
+    background-color: rgb(191, 194, 197);
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.login-btn:hover {
+    background-color: rgb(206, 203, 203);
+    
+}
+
+/* Responsive  */
+
+@media screen and (min-width: 0px) and (max-width: 420px) {
+    
+.login_form_control {
+    width: auto;
+    margin-top: 30%;
+}
+}
+
+@media screen and (max-width: 950px) {
+    
+    .login_form_control {
+        width: auto;
+        margin-top: 10%;
+    }
+}
+   
